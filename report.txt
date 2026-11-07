@@ -1,0 +1,26 @@
+* 949f44b (HEAD -> main) Add search test
+* 96801f1 Add search by name
+* c8e02ba Add Product model
+* 99d6126 Add README
+* e9416a7 (origin/main, origin/HEAD) Initial commit
+
+- git add taghirat ra az working directory be stagging area mifrestad va git commit az sttagging area be local repository
+- .env virtual environment mast ke package ha dar an install shodand. har kas ba tavajoh be systemi ke dar bayad khodesh package ha ra nasb konad va anha ziad va hajim hastand baraye hamin nabayad anha ra push konim.
+- git diff taghirat file ha dar working directory ra neshan midahad, ama git diff --staged taghirati ke dar stagging area hast ra neshan midahad
+
+
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   simpleTest_shop.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        report.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
