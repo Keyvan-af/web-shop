@@ -7,3 +7,6 @@ class Product:
 def find_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
     
+def total(prices):
+    """Return the sum of a sequence of prices (0 for an empty sequence)."""
+    return sum(prices)
