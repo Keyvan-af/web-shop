@@ -10,3 +10,6 @@ def find_by_name(products, text):
 def total(prices):
     """Return the sum of a sequence of prices (0 for an empty sequence)."""
     return sum(prices)
+
+def apply_discount(price, percent):
+    return price * (100 - percent) / 100
