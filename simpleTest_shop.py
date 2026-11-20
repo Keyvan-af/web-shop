@@ -15,3 +15,6 @@ print(total([]))                    # 0
 print(total([42]))                  # 42
 print(total([1.5, 2.5, 3.0]))       # 7.0
 print(total(p.price for p in products))   # 3500 (works with generators too)
+
+def test_find_case_insensitive():
+    assert [p.sku for p in find_by_name(products, "KEY")] == ["B2"]
