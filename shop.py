@@ -29,3 +29,9 @@ def apply_coupon(price):
     return price - 5 
 p1 = Product(sku="2", name="apple", price="3000")
 print(p1.price)
+
+def sort_by_price(products):
+    return sorted(products, key=lambda p: p.price)
+
+def in_stock(stock, sku):
+    return stock.get(sku, 0) > 0
