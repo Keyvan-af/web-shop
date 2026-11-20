@@ -16,7 +16,7 @@ class Product:
     def apply_discount(price, percent):
         return price * (100 - percent) / 100 
 
-    def add_tax(price, rate=0.2):
+    def add_tax(price, rate=0.15):
         return price * (1 + rate)  # feature: add tax to price, default rate is 20%
 
     def search_by_name(products, text):
