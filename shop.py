@@ -21,3 +21,6 @@ class Product:
 
     def search_by_name(products, text):
         return [p for p in products if text.lower() in p.name.lower()]
+
+p1 = Product(sku="2", name="apple", price="3000")
+print(p1.price)
